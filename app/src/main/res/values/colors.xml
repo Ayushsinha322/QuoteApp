@@ -1,0 +1,7 @@
+<resources>
+    <color name="darkBackground">#212121</color>
+    <color name="quoteText">#FFFFFF</color>
+    <color name="darkText">#000000</color>
+    <color name="primaryColor">#1976D2</color>
+    <color name="accentColor">#FF4081</color>
+</resources>

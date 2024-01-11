@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBackground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/quoteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="24sp"
+        android:textColor="@color/quoteText"
+        android:textStyle="italic"
+        android:text="Tap to get inspired"
+        android:padding="16dp"/>
+
+    <EditText
+        android:id="@+id/userQuoteInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quoteText"
+        android:layout_margin="16dp"
+        android:hint="Write your own quote"
+        android:background="@android:color/white"
+        android:textColor="@color/darkText"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/quoteContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userQuoteInput"
+        android:layout_margin="16dp"
+        android:text="Get Inspired"
+        android:textColor="@android:color/white"
+        android:background="@color/primaryColor"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quoteContainer"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/accentColor"
+        android:text="Save Quote"
+        android:textColor="#212121" />
+</RelativeLayout>

@@ -6,6 +6,15 @@
     android:background="@color/darkBackground"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:id="@+id/quoteImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="Image for the quote"
+        android:scaleType="centerCrop"
+        android:src="@drawable/arnold" />
+
     <TextView
         android:id="@+id/quoteText"
         android:layout_width="wrap_content"

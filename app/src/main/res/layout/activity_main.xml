@@ -7,6 +7,9 @@
     tools:context=".MainActivity">
 
 
+    //imageview has been added
+
+
     <ImageView
         android:id="@+id/quoteImageView"
         android:layout_width="match_parent"
